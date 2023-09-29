@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: gilroy;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%; 
+    background-image: url("car.webp");
+    
+    
+
+}
+#main{
+    height:100%;
+    width: 100%;
+   
+    position: relative;
+}
+#nav{
+    height: 110px;
+    padding: 0,80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav img{
+    height: 40px;
+   
+    margin-right: 100px;
+    
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9px;
+}
+#nav-part1 h4{
+    margin-right: 30px; 
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+#nav-part2{
+    display: flex;
+    margin-left: 530px;
+}
+#nav-part2 i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-right: 20px;
+
+}
+#nav-part2 button{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 13px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+#content{
+    width:100%;
+    height: calc(100% - 110px);
+    position: relative;
+    display: flex;
+}
+#left{
+    width: 40%;
+    height: 100%;
+    padding:70px 150px;
+}
+#left h5{
+
+    font-size: 15px;
+   margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+#left h1{
+    font-size:35px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 13px
+}
+#left p{
+    font-size: 16px;
+    font-weight: 600;
+    width: 70%;
+    margin-bottom: 30px;
+}
+#left button{
+    background-color: rgb(24, 23, 23);
+    color: rgb(248, 248, 248);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 20;
+    border-radius: 70px;
+    padding: 15px 25px;
+}
+#right{
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+.image button{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 12px 29px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+    
